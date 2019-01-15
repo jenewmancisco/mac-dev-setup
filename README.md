@@ -6,11 +6,8 @@ The document assumes you are new to Mac.
 
 - [Set all preferences](#set-all-preferences)
 - [System preferences](#system-preferences)
-- [Google Chrome](#google-chrome)
-- [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
-- [Consolas](#consolas)
-- [Beautiful terminal](#beautiful-terminal)
+- [Google Chrome](#google-chrome)
 - [iTerm2](#iterm2)
 - [Git](#git)
 - [Sublime Text](#sublime-text)
@@ -19,15 +16,10 @@ The document assumes you are new to Mac.
 - [Virtualenv](#virtualenv)
 - [IPython](#ipython)
 - [Numpy and Scipy](#numpy-and-scipy)
-- [MySQL](#mysql)
 - [Node.js](#nodejs)
 - [JSHint](#jshint)
-- [Ruby and RVM](#ruby-and-rvm)
 - [LESS](#less)
 - [Heroku](#heroku)
-- [MongoDB](#mongodb)
-- [Redis](#redis)
-- [Elasticsearch](#elasticsearch)
 - [Projects folder](#projects-folder)
 - [Apps](#apps)
 
@@ -128,3 +120,43 @@ Homebrew keeps older versions of packages installed, in case you want to roll ba
 To see what you have installed (with their version numbers):
 
     brew list --versions
+
+## Install Free GUI Apps
+- [brewcast_free.sh](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_free.sh)
+```
+cd ~
+curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_free.sh
+```
+## Install Mac Quick Look plugins that extend the default functionality of one of Mac’s best features.
+- [brewcast_macquickplugin.sh](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_macquickplugin.sh)
+```
+cd ~
+curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_macquickplugin.sh
+```
+## Install CLI Apps
+- [brew_free.sh](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brew_free.sh)
+```
+cd ~
+curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brew_free.sh
+```
+
+## Google Chrome
+
+Install your favorite browser, mine happens to be Chrome.
+
+Download from [www.google.com/chrome](https://www.google.com/intl/en/chrome/browser/). Open the **.dmg** file once it's done downloading (this will mount the disk image), and drag and drop the **Google Chrome** app into the Applications folder (on the Mac, most applications are installed this way). When done, you can unmount the disk in Finder (the small "eject" icon next to the disk under **Devices**).
+
+
+## iTerm2
+
+Since we're going to be spending a lot of time in the command-line, let's install a better terminal than the default one. Download and install [iTerm2](http://www.iterm2.com/) (the newest version, even if it says "beta release").
+
+In **Finder**, drag and drop the **iTerm** Application file into the **Applications** folder.
+
+You can now launch iTerm, through the **Launchpad** for instance.
+
+Let's just quickly change some preferences. In **iTerm > Preferences...**, under the tab **General**, uncheck **Confirm closing multiple sessions** and **Confirm "Quit iTerm2 (Cmd+Q)" command** under the section **Closing**.
+
+In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
+
+When done, hit the red "X" in the upper left (saving is automatic in OS X preference panes). Close the window and open a new one to see the size change.
