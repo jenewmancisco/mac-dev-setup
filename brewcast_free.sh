@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+brew tap caskroom/versions
+
 brew cask install \
 clipy \
 cheatsheet \
@@ -15,3 +17,4 @@ vlc \
 zoomus
 
 brew cask install google-chrome
+brew cask install sketch
