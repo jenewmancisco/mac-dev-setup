@@ -48,27 +48,27 @@ Once you have logged into your account, create a folder called Applications with
 
 ### Security & Privacy: BIG ONE HERE! Do NOT forget these!!
 - **General**: Set password if you haven’t already and set to require password 5 minutes after sleep or screen saver begins
-- Click **Advanced** and select Require an administrator password to access system-wide preferences
+- **Advanced** select Require an administrator password to access system-wide preferences
 - **FileVault**: This is where you turn on encryption! Do this NOW and make sure you know your password and save the key securely!
 - **Firewall**: Turn it on.
 
 ### Setting Up Time Machine Backups
 Time Machine is simple to set up. Just take a suitably large external hard drive, plug it in to your Mac, and agree when prompted. The drive setup process will reformat the hard drive. The only settings that may need to change are the exclusions.
-- Choose System Preferences > Time Machine, and click Options. Add to the exclusions list any folders that contain ISO disk images, virtual machines, or database files (such as Entourage). If the external hard drive is short of space, exclude the System folder.
+- Choose System Preferences > Time Machine, and click Options. Add to the exclusions list any folders that contain ISO disk images, virtual machines, or database files. If the external hard drive is short of space, exclude the System folder.
 
 ### More preferences
 - **General**: Use Dark menu bar and Dock
 - **Dock: Size**: Very small, Magnification on: Max, all options at bottom checked
-- **Mission Control**: All options on except “Group windows by application,” Dashboard Off, Hot corners (I get a lot of flack from other people using my computer for these, but I LOVE them!): Top Left: Mission Control, Top Right: App Windows, Bottom Right: Put Display to Sleep, Bottom Left: Desktop
+- **Mission Control**: All options on except “Group windows by application,” Dashboard Off, Hot corners??: Top Left: Mission Control, Top Right: App Windows, Bottom Right: Put Display to Sleep, Bottom Left: Desktop
 - **Users & Groups**: Turn OFF the “Guest User” account
 
-Next up is **Finder!** So open up a fresh Finder window and hold Cmd + , to open the preferences.
-- **General**: I show everything and have New Finder windows open to Recents
-- **Tags**: I turn them all off here. This doesn’t mean you can’t use them; it just takes them off the Finder sidebar where I find they are more of just clutter than anything else.
-- **Sidebar**: Maybe this is why I see the tags as clutter, because here I show EVERYTHING else! Turn everything on, except Recent Tags!
+### Finder! - So open up a fresh Finder window and hold Cmd + , to open the preferences.
+- **General**: Show everything and have New Finder windows open to Recents
+- **Tags**: Turn them all off here. This doesn’t mean you can’t use them; it just takes them off the Finder sidebar.
+- **Sidebar**: Turn everything on, except Recent Tags!
 That’s all here, close this window. 
 	
-Next up I like to set my **desktop** up a little. Click a blank space on the desktop and then hit cmd + j to bring up the desktop options.
+### Desktop - up a little. Click a blank space on the desktop and then hit cmd + j to bring up the desktop options.
 ```
   Icon Size: 36 x 36
   Grid Spacing: Max
@@ -83,12 +83,12 @@ Package managers make it so much easier to install and update applications (for 
 
 ### Install
 
-**XCode**: Make sure to get XCode installing from here ASAP! XCode is a very large app, can take a very long time to download depending on your internet connection, and it is required for developing on a Mac!
+**XCode**: Make sure to get XCode installing from here ASAP! XCode is a very large app, can take a very long time to download depending on internet connection, and is required for developing on a Mac!
 install the Xcode Command Line Tools directly
 
     xcode-select --install
 
-Finally, we can install Hombrew! In the terminal paste the following line (without the $), hit Enter, and follow the steps on the screen:
+Finally, we can install **Hombrew!** In the terminal paste the following line, hit Enter, and follow the steps on the screen:
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   
