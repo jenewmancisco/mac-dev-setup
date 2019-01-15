@@ -83,14 +83,25 @@ Projects/
 ### More preferences
 - **General**: Use Dark menu bar and Dock
 - **Dock: Size**: Very small, Magnification on: Max, all options at bottom checked
+- **Spotlight**: uncheck everything
+- **Date/Time**: Clock: check display with seconds; check show date
 - **Mission Control**: All options on except “Group windows by application,” Dashboard Off, Hot corners??: Top Left: Mission Control, Top Right: App Windows, Bottom Right: Put Display to Sleep, Bottom Left: Desktop
-- **Users & Groups**: Turn OFF the “Guest User” account
+- **Users & Groups**: click lock to unlock then, Turn OFF the “Guest User” account
 
 ### Finder! - So open up a fresh Finder window and hold Cmd + , to open the preferences.
 - **General**: Show everything and have New Finder windows open to Recents
 - **Tags**: Turn them all off here. This doesn’t mean you can’t use them; it just takes them off the Finder sidebar.
 - **Sidebar**: Turn everything on, except Recent Tags!
-That’s all here, close this window. 
+- Show full path in Finder titlebar:
+  * defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder
+That’s all here, close this window.
+
+### Allow sudo without a password:
+
+- Run `sudo visudo` and change to:
+  
+    root    ALL = (ALL) ALL
+    %admin ALL = (ALL) NOPASSWD: ALL
 	
 ### Desktop - up a little. Click a blank space on the desktop and then hit cmd + j to bring up the desktop options.
 ```
@@ -113,6 +124,13 @@ Package managers make it so much easier to install and update applications (for 
 
 **XCode**: Make sure to get XCode installing from here ASAP! XCode is a very large app, can take a very long time to download depending on internet connection, and is required for developing on a Mac!
 install the Xcode Command Line Tools directly
+
+- run this to get Xcode
+
+    xcode-select --install
+    sudo xcodebuild -license accept
+
+- run again and install command-line tools
 
     xcode-select --install
 
@@ -180,6 +198,7 @@ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/bre
 
 Here is a quick list of some apps I use, and that you might find useful as well:
 
+- MonoSnap (Screenshots) - Install from Appstore
 - [Dropbox](https://www.dropbox.com/): File syncing to the cloud. I put all my documents in Dropbox. It syncs them to all my devices (laptop, mobile, tablet), and serves as a backup as well! **(Free for 2GB)**
 - [Google Drive](https://drive.google.com/): File syncing to the cloud too! I use Google Docs a lot to collaborate with others (edit a document with multiple people in real-time!), and sometimes upload other non-Google documents (pictures, etc.), so the app comes in handy for that. **(Free for 5GB)**
 - [1Password](https://agilebits.com/onepassword): Allows you to securely store your login and passwords. Even if you only use a few different passwords (they say you shouldn't!), this is really handy to keep track of all the accounts you sign up for! Also, they have a mobile app so you always have all your passwords with you (syncs with Dropbox). A little pricey though. There are free alternatives. **($50 for Mac app, $18 for iOS app)**
