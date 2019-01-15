@@ -14,3 +14,5 @@ virtualbox \
 visual-studio-code \
 vlc \
 zoomus
+
+brew cask install google-chrome
