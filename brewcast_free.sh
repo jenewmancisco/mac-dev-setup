@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 brew cask install \
-astro \
-avast-security \
+beyond-compare \
+clipy \
 cheatsheet \
 docker \
 gimp \
