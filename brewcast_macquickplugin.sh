@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Plugins for Quick Look
+
 brew cask install \
 qlcolorcode \
 qlstephen \
