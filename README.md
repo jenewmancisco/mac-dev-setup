@@ -648,7 +648,7 @@ To uninstall a package:
 
     npm uninstall <package>
 
-##JSHint
+## JSHint
 
 JSHint is a JavaScript developer's best friend. 
 
