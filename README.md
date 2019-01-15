@@ -344,6 +344,7 @@ To enable colors in the output, which can be very helpful, enter this command:
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](https://github.com/jenewmancisco/mac-dev-setup/blob/master/.gitignore) file for inspiration.
 
 ## Visual Studio Code
+
 Now, this section would be a bit more extensive and exhausting if it wasn’t for one amazing VSC plugin… Settings Sync!
 Let’s open up Visual Studio Code!
 Use hotkey cmd + shift + p to open up the Command Palette
