@@ -335,7 +335,7 @@ To enable colors in the output, which can be very helpful, enter this command:
 
 **Note**: On a Mac, it is important to remember to add `.DS_Store` (a hidden OS X system file that's put in folders) to your `.gitignore` files. You can take a look at this repository's [.gitignore](https://github.com/jenewmancisco/mac-dev-setup/blob/master/.gitignore) file for inspiration.
 
-## Visual Studio Code
+## Visual Studio Code
 
 Now, this section would be a bit more extensive and exhausting if it wasn’t for one amazing VSC plugin… Settings Sync!
 Let’s open up Visual Studio Code!
@@ -357,12 +357,12 @@ To make Visual Studio Code your default editor, use this line in your ~/.bashrc 
 export EDITOR="code -w"
 
 If you use extensions, consider these:
-	• Support for your preferred languages, e.g. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), [Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack), [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.ruby), or [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
-	• [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) or [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) for JavaScript linter integration
-	• [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) to debug JavaScript in the Web browser
-	• [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) to enhance the Git support in the user interface
-	• The [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker) extension
-	• [YAML Support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+- Support for your preferred languages, e.g. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), [Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack), [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.ruby), or [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) or [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) for JavaScript linter integration
+- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) to debug JavaScript in the Web browser
+- [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) to enhance the Git support in the user interface
+- [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker) extension
+- [YAML Support](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ## Sublime Text
 
