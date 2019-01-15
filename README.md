@@ -85,7 +85,7 @@ Projects/
 - **Dock: Size**: Very small, Magnification on: Max, all options at bottom checked
 - **Spotlight**: uncheck everything
 - **Date/Time**: Clock: check display with seconds; check show date
-- **Mission Control**: All options on except “Group windows by application,” Dashboard Off, Hot corners??: Top Left: Mission Control, Top Right: App Windows, Bottom Right: Put Display to Sleep, Bottom Left: Desktop
+- **Mission Control**: All options on except “Group windows by application,” , rearranging spaces off, Dashboard Off, Hot corners??: Top Left: Mission Control, Top Right: App Windows, Bottom Right: Put Display to Sleep, Bottom Left: Desktop
 - **Users & Groups**: click lock to unlock then, Turn OFF the “Guest User” account
 
 ### Finder! - So open up a fresh Finder window and hold Cmd + , to open the preferences.
@@ -199,10 +199,13 @@ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/bre
 Here is a quick list of some apps I use, and that you might find useful as well:
 
 - MonoSnap (Screenshots) - Install from Appstore
+- Slack
 - [Dropbox](https://www.dropbox.com/): File syncing to the cloud. I put all my documents in Dropbox. It syncs them to all my devices (laptop, mobile, tablet), and serves as a backup as well! **(Free for 2GB)**
 - [Google Drive](https://drive.google.com/): File syncing to the cloud too! I use Google Docs a lot to collaborate with others (edit a document with multiple people in real-time!), and sometimes upload other non-Google documents (pictures, etc.), so the app comes in handy for that. **(Free for 5GB)**
 - [lastpass](https://www.lastpass.com/) 
 - [Marked](http://markedapp.com/): [Markdown](http://daringfireball.net/projects/markdown/). In fact, this `README.md` file (possibly the most important file of a GitHub repo) is indeed in Markdown, use Marked to preview the results everytime before save. **($4)**
+- SourceTree
+- Atom ???
 
 ## iTerm2
 
