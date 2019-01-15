@@ -11,7 +11,6 @@ The document assumes you are new to Mac.
 - [System preferences](#system-preferences)
 - [Setting Up Time Machine Backups](#setting-up-time-machine-backups)
 - [Homebrew](#homebrew)
-- [Google Chrome](#google-chrome)
 - [Apps](#apps)
 - [iTerm2](#iterm2)
 - [Python](#python)
@@ -176,13 +175,6 @@ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/bre
 cd ~
 curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brew_free.sh
 ```
-
-## Google Chrome
-
-Install your favorite browser, mine happens to be Chrome.
-
-Download from [www.google.com/chrome](https://www.google.com/intl/en/chrome/browser/). Open the **.dmg** file once it's done downloading (this will mount the disk image), and drag and drop the **Google Chrome** app into the Applications folder (on the Mac, most applications are installed this way). When done, you can unmount the disk in Finder (the small "eject" icon next to the disk under **Devices**).
-
 
 ## Apps
 
