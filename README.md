@@ -283,7 +283,8 @@ If you need to run the pip utility, rather than setting up a development environ
     
 ## Git
 
-What's a developer without [Git](http://git-scm.com/)? To install, simply run:
+The Xcode Command Line Tools include a copy of Git, which is now the standard for Open Source development, but this will be out of date.
+To install a newer version of [Git](http://git-scm.com/) than Apple provide, use Homebrew. Enter this command in a terminal window:
 
     brew install git
     
