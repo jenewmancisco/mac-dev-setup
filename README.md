@@ -34,10 +34,11 @@ The document assumes you are new to Mac.
 
 ### BASH custumization
 Download the files .bash_profile, .bash_prompt, .aliases attached to this document into your home directory (.bash_profile is the one that gets loaded, it's set it up to call the others):
-$ cd ~
-$ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bash_profile
-$ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bash_prompt
-$ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.aliases
+
+    cd ~
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bash_profile
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bash_prompt
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.aliases
 
 ### Creating a Private Applications Folder
 Once you have logged into your account, create a folder called Applications within your home folder. Whenever you are prompted to drag a new applications into the global Applications folder, put it in this private Applications folder instead. Some applications have to be installed to global folders, but in most cases you can keep the system directories clean by storing third-party products in your private Applications folder.
@@ -294,15 +295,15 @@ And `which git` should output `/usr/local/bin/git`.
 
 Let's set up some basic configuration. Download the [.gitconfig](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitconfig) file to your home directory:
 
-    $ cd ~
-    $ curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitconfig
+    cd ~
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitconfig
 
 It will add some color to the `status`, `branch`, and `diff` Git commands, as well as a couple aliases.
 
 Next, define Git user (should be the username and email you use for Git:
 
-    $ git config --global user.name "Your Name Here"
-    $ git config --global user.email "your_email@youremail.com"
+    git config --global user.name "Your Name Here"
+    git config --global user.email "your_email@youremail.com"
 
 They will get added to your `.gitconfig` file.
 
