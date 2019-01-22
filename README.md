@@ -128,6 +128,7 @@ install the Xcode Command Line Tools directly
 - run this to get Xcode
 
     xcode-select --install
+    
     sudo xcodebuild -license accept
 
 - run again and install command-line tools
