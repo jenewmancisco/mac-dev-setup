@@ -122,14 +122,7 @@ Package managers make it so much easier to install and update applications (for 
 
 ### Install
 
-**XCode**: Make sure to get XCode installing from here ASAP! XCode is a very large app, can take a very long time to download depending on internet connection, and is required for developing on a Mac!
-install the Xcode Command Line Tools directly
-
-- run this to get Xcode
-
-    xcode-select --install
-    
-    sudo xcodebuild -license accept
+**XCode**: install the Xcode Command Line Tools directly
 
 - run again and install command-line tools
 
@@ -137,7 +130,7 @@ install the Xcode Command Line Tools directly
 
 Finally, we can install **Hombrew!** In the terminal paste the following line, hit Enter, and follow the steps on the screen:
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   
 One thing we need to do is tell the system to use programs installed by Hombrew (in /usr/local/bin) rather than the OS default if it exists. We do this by adding /usr/local/bin to your $PATH environment variable:
 
