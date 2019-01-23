@@ -235,11 +235,14 @@ Homebrew names the executable python2 so that you can still run the system Pytho
 It also installed [Pip]() (and its dependency [Distribute]()), which is the package manager for Python. Let's upgrade them both:
 
     pip2 -V  # pip pointing to the Homebrew installed Python 2 interpreter
+    pip3 -V  # pip pointing to the Homebrew installed Python 3 interpreter (if installed)
     pip -V  # pip pointing to the Homebrew installed Python 3 interpreter (if installed)
 
 
-    pip install --upgrade distribute
-    pip install --upgrade pip
+    pip2 install --upgrade distribute
+    pip2 install --upgrade pip
+    pip3 install --upgrade distribute
+    pip3 install --upgrade pip
     
 Because python@2 is a “keg”, we need to update our PATH again, to point at our new installation. Executable scripts from Python packages you install will be put in `/usr/local/opt/python@2/libexec/bin`, so let's add it to the `$PATH`. To do so, we'll create a `.path` text file in the home directory (it's set up in `.bash_profile` to call this file):
 
