@@ -223,23 +223,21 @@ OS X, like Linux, ships with [Python](http://python.org/) already installed. But
     brew install python@2
     
 Because python@2 is a “keg”, we need to update our PATH again, to point at our new installation. Modify the .path file and add:
-
+    
     export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
 
 Homebrew names the executable python2 so that you can still run the system Python via the executable python.
 
-    python -V   # system Python interpreter
+    python -V   # Homebrew installed Python 3 interpreter (if installed)
     python2 -V  # Homebrew installed Python 2 interpreter
     python3 -V  # Homebrew installed Python 3 interpreter (if installed)
-    
-When finished, you should get a summary in the terminal. Running `$ which python` should output `/usr/local/bin/python2`.
 
 It also installed [Pip]() (and its dependency [Distribute]()), which is the package manager for Python. Let's upgrade them both:
 
     pip install --upgrade distribute
     pip install --upgrade pip
     
-Executable scripts from Python packages you install will be put in `/usr/local/share/python`, so let's add it to the `$PATH`. To do so, we'll create a `.path` text file in the home directory (it's set up in `.bash_profile` to call this file):
+Because python@2 is a “keg”, we need to update our PATH again, to point at our new installation. Executable scripts from Python packages you install will be put in `/usr/local/opt/python@2/libexec/bin`, so let's add it to the `$PATH`. To do so, we'll create a `.path` text file in the home directory (it's set up in `.bash_profile` to call this file):
 
     $ cd ~
     $ vi .path
@@ -247,7 +245,7 @@ Executable scripts from Python packages you install will be put in `/usr/local/s
 And add these lines to `.path`:
 
 ```bash
-PATH=/usr/local/share/python:$PATH
+PATH=/usr/local/opt/python@2/libexec/bin:$PATH
 export PATH
 ```
     
