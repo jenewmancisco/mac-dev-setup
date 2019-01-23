@@ -303,6 +303,10 @@ These commands create a `venv` subdirectory in your project where everything is 
 
     source venv/bin/activate
     
+If you are done working in the virtual environment for the moment, you can deactivate it:
+
+    deactivate
+    
 You should see a `(venv)` appear at the beginning of your terminal prompt indicating that you are working inside the virtualenv. Now when you install something:
 
     pip2 install <package>
