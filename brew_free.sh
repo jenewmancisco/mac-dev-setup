@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-brew install bash  make git python python3 pipenv
+brew install bash  make git python@2 python3 pipenv
 brew install vim --with-override-system-vi
 
 # zsh
