@@ -234,6 +234,10 @@ Homebrew names the executable python2 so that you can still run the system Pytho
 
 It also installed [Pip]() (and its dependency [Distribute]()), which is the package manager for Python. Let's upgrade them both:
 
+    pip2 -V  # pip pointing to the Homebrew installed Python 2 interpreter
+    pip -V  # pip pointing to the Homebrew installed Python 3 interpreter (if installed)
+
+
     pip install --upgrade distribute
     pip install --upgrade pip
     
@@ -255,19 +259,19 @@ Save the file and open a new terminal to take the new `$PATH` into account (ever
 
 Here are a couple Pip commands to get you started. To install a Python package:
 
-    pip install <package>
+    pip2 install <package>
 
 To upgrade a package:
 
-    pip install --upgrade <package>
+    pip2 install --upgrade <package>
         
 To see what's installed:
 
-    pip freeze
+    pip2 freeze
     
 To uninstall a package:
 
-    pip uninstall <package>
+    pip2 uninstall <package>
 
 ## Virtualenv
 
@@ -279,7 +283,7 @@ The advantage is that different projects might require different versions of pac
 
 To install virtualenv, simply run:
 
-    pip install virtualenv
+    pip2 install virtualenv
 
 ### Usage
 
@@ -298,7 +302,7 @@ These commands create a `venv` subdirectory in your project where everything is 
     
 You should see a `(venv)` appear at the beginning of your terminal prompt indicating that you are working inside the virtualenv. Now when you install something:
 
-    pip install <package>
+    pip2 install <package>
 
 It will get installed in the `venv` folder, and not conflict with other projects.
 
