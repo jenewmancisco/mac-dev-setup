@@ -220,11 +220,19 @@ When done, hit the red "X" in the upper left (saving is automatic in OS X prefer
 
 OS X, like Linux, ships with [Python](http://python.org/) already installed. But you don't want to mess with the system Python (some system tools rely on it, etc.), so we'll install our own version with Homebrew. It will also allow us to get the very latest version of Python 2.7.
 
-The following command will install Python 2.7 and any dependencies required (it can take a few minutes to build everything):
-
-    brew install python
+    brew install python@2
     
-When finished, you should get a summary in the terminal. Running `$ which python` should output `/usr/local/bin/python`.
+Because python@2 is a “keg”, we need to update our PATH again, to point at our new installation. Modify the .path file and add:
+
+    export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
+
+Homebrew names the executable python2 so that you can still run the system Python via the executable python.
+
+    python -V   # system Python interpreter
+    python2 -V  # Homebrew installed Python 2 interpreter
+    python3 -V  # Homebrew installed Python 3 interpreter (if installed)
+    
+When finished, you should get a summary in the terminal. Running `$ which python` should output `/usr/local/bin/python2`.
 
 It also installed [Pip]() (and its dependency [Distribute]()), which is the package manager for Python. Let's upgrade them both:
 
