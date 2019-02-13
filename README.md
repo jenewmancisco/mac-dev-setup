@@ -341,13 +341,13 @@ To install a newer version of [Git](http://git-scm.com/) than Apple provide, use
 When done, to test that it installed fine you can run:
 
     git --version
-    
 And `which git` should output `/usr/local/bin/git`.
 
 Let's set up some basic configuration. Download the [.gitconfig](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitconfig) file to your home directory:
 
     cd ~
     curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitconfig
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitignore
 
 It will add some color to the `status`, `branch`, and `diff` Git commands, as well as a couple aliases.
 
