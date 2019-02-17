@@ -331,6 +331,23 @@ If you need to run the pip utility, rather than setting up a development environ
 
     pip3 --version
     
+Installing packages for your project.
+
+- Pipenv manages dependencies on a per-project basis. 
+
+To install packages, change into your project’s directory (or just an empty directory) and run:
+
+    cd myproject
+    pipenv install requests
+    
+Run a command inside the virtualenv with pipenv run (ensures that your installed packages are available to your script) 
+
+    pipenv run <command>
+    
+It’s also possible to spawn a new shell(activate this project's virtualenv) that ensures all commands have access to your installed packages with
+
+    pipenv shell
+    
 ## Git
 
 The Xcode Command Line Tools include a copy of Git, which is now the standard for Open Source development, but this will be out of date.
