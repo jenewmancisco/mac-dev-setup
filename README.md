@@ -358,6 +358,7 @@ To install a newer version of [Git](http://git-scm.com/) than Apple provide, use
 When done, to test that it installed fine you can run:
 
     git --version
+    
 And `which git` should output `/usr/local/bin/git`.
 
 Let's set up some basic configuration. Download the [.gitconfig](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.gitconfig) file to your home directory:
@@ -372,6 +373,7 @@ Next, define Git user (should be the username and email you use for Git:
 
     git config --global user.name "Your Name Here"
     git config --global user.email "your_email@youremail.com"
+    git config --global core.excludesfile '~/.gitignore'
 
 They will get added to your `.gitconfig` file.
 
