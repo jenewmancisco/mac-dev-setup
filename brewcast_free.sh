@@ -18,3 +18,4 @@ zoomus
 
 brew cask install google-chrome
 brew cask install sketch
+brew cask install bbedit
