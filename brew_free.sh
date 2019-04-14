@@ -3,6 +3,7 @@
 brew install bash  make git python@2 python3 pipenv
 brew install vim --with-override-system-vi
 brew install git-lfs
+brew install jq
 
 # zsh
 #brew install zsh
