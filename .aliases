@@ -14,6 +14,35 @@ alias la="ls -lha"
 # List only directories
 alias lsd='ls -l | grep "^d"'
 
+#VMs
+# My K8 Dev
+alias ihs183='ssh root@fcinodeihs183.rtp.raleigh.ibm.com'
+alias ihs188='ssh root@fcinodeihs188.rtp.raleigh.ibm.com'
+alias ihs229='ssh root@fcinodeihs229.rtp.raleigh.ibm.com'
+
+# HDP Env 3
+alias node112='ssh root@fcinode112.rtp.raleigh.ibm.com'
+alias node12='ssh root@fcinode12.rtp.raleigh.ibm.com'
+alias node121='ssh root@fcinode121.rtp.raleigh.ibm.com'
+alias node128='ssh root@fcinode128.rtp.raleigh.ibm.com'
+alias node152='ssh root@fcinode152.rtp.raleigh.ibm.com'
+alias node160='ssh root@fcinode160.rtp.raleigh.ibm.com'
+alias node166='ssh root@fcinode166.rtp.raleigh.ibm.com'
+alias node179='ssh root@fcinode179.rtp.raleigh.ibm.com'
+alias node180='ssh root@fcinode180.rtp.raleigh.ibm.com'
+alias node184='ssh root@fcinode184.rtp.raleigh.ibm.com'
+alias node223='ssh root@fcinode223.rtp.raleigh.ibm.com'
+alias node231='ssh root@fcinode231.rtp.raleigh.ibm.com'
+alias node232='ssh root@fcinode232.rtp.raleigh.ibm.com'
+alias node42='ssh root@fcinode42.rtp.raleigh.ibm.com'
+alias node43='ssh root@fcinode43.rtp.raleigh.ibm.com'
+
+alias fci1-k8m='ssh root@fcinodeihs183.rtp.raleigh.ibm.com'
+alias env1-k8m='ssh root@fci-iui1i1.fyre.ibm.com'
+alias env2-k8m='ssh root@fci-em01a1.fyre.ibm.com'
+alias env3-k8m='ssh root@fcinode112.rtp.raleigh.ibm.com'
+alias env4-k8m='ssh root@fcinode166.rtp.raleigh.ibm.com'
+
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
 export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
