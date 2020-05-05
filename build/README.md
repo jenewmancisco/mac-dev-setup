@@ -7,8 +7,7 @@
     export SBT_HOME=/opt/sbt/latest
 
 - Under .path
-
-    export PATH=$PATH:$SBT_HOME/bin
+  - export PATH=$PATH:$SBT_HOME/bin
 
 ## Verify SBT Install
 
@@ -36,13 +35,10 @@
 ## Add the following, changing the version (3.5.2) to whatever appears above:
 
 - Under .extras
-
-    export M2_HOME=/usr/local/Cellar/maven/3.5.2/libexec
-    export M2=$M2_HOME/bin
-
+  - export M2_HOME=/usr/local/Cellar/maven/3.5.2/libexec
+  - export M2=$M2_HOME/bin
 - Under .path
-
-    export PATH=$PATH:$M2_HOME/bin
+  - export PATH=$PATH:$M2_HOME/bin
 
 # Java JDK
 
