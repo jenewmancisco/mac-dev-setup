@@ -3,9 +3,7 @@
     brew install sbt
 
 - Under .extras
-
-    export SBT_HOME=/opt/sbt/latest
-
+  - export SBT_HOME=/opt/sbt/latest
 - Under .path
   - export PATH=$PATH:$SBT_HOME/bin
 
