@@ -2,10 +2,9 @@
 
     brew install sbt
 
-- Under .extras
-  - export SBT_HOME=/opt/sbt/latest
-- Under .path
-  - export PATH=$PATH:$SBT_HOME/bin
+- Under .builds
+  - echo 'export SBT_HOME=/opt/sbt/latest' >> ~/.builds
+  - echo 'export PATH=$PATH:$SBT_HOME/bin' >> ~/.builds
 
 ## Verify SBT Install
 
@@ -32,11 +31,10 @@
 
 ## Add the following, changing the version (3.5.2) to whatever appears above:
 
-- Under .extras
-  - export M2_HOME=/usr/local/Cellar/maven/3.5.2/libexec
-  - export M2=$M2_HOME/bin
-- Under .path
-  - export PATH=$PATH:$M2_HOME/bin
+- Under .builds
+  - echo 'export M2_HOME=/usr/local/Cellar/maven/3.5.2/libexec' >> ~/.builds
+  - echo 'export M2=$M2_HOME/bin' >> ~/.builds
+  - echo 'export PATH=$PATH:$M2_HOME/bin' >> ~/.builds
 
 # Java JDK
 
@@ -47,3 +45,11 @@
 ## If you have previous version of Java installed using Cask
 
     brew cask reinstall java
+
+## Verify Java Install
+
+    brew cask info java
+
+# Source .builds to use
+
+    source ~/.builds
