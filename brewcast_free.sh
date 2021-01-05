@@ -2,7 +2,7 @@
 
 brew tap caskroom/versions
 
-brew cask install \
+brew install --cask \
 clipy \
 cheatsheet \
 docker \
@@ -16,6 +16,8 @@ visual-studio-code \
 vlc \
 zoomus
 
-brew cask install google-chrome
-brew cask install sketch
-brew cask install bbedit
+brew install --cask google-chrome
+brew install --cask sketch
+brew install --cask bbedit
+
+brew install --cask dbeaver-community
