@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-brew install bash  make git python@2 python3 pipenv
+brew install bash  make git python@2 python3 pipenv helm
 brew install bash-completion@2
 brew install vim --with-override-system-vi
 brew install git-lfs
