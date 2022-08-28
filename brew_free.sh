@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 brew install bash  make git python@2 python3 pipenv helm
 brew install bash-completion@2
 brew install vim --with-override-system-vi
@@ -22,3 +23,17 @@ brew install node
 # Other useful tools
 brew install httpie
 brew install htop
+
+# BASH Shell Scripting
+brew install shellcheck
+
+# You can upgrade them with 
+# brew upgrade
+# or list them with 
+# brew outdated
+
+# To force the link and overwrite all conflicting files:
+#  brew link --overwrite argo
+#
+#To list all files that would be deleted:
+#  brew link --overwrite --dry-run argo
