@@ -24,6 +24,19 @@ brew install node
 brew install httpie
 brew install htop
 
+# direnv - load environment variables, depending on the current directory
+# pyenv - change Python versions on a per-project basis
+# together give a higher level of control on the version used in directory
+# pyenv will try its best to download and compile the wanted Python version
+#  Below recommendations for system dependencies for a sane build environment
+brew install openssl readline sqlite3 xz zlib tcl-tk
+brew install pyenv
+# configuring your shell
+# echo 'export PATH="~/.pyenv/bin:$PATH"' >> ~/.bashrc
+# echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+# echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+
 # BASH Shell Scripting
 brew install shellcheck
 
