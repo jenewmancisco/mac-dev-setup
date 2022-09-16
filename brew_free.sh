@@ -35,6 +35,16 @@ brew install pyenv
 # echo 'export PATH="~/.pyenv/bin:$PATH"' >> ~/.bashrc
 # echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 brew install direnv
+#	Now we need to hook direnv to bash
+# echo 'eval "$(direnv hook bash)"' >> ~/.bashrc
+# To use generic python
+# echo 'layout python2' > .envrc
+# echo 'layout python3' > .envrc
+# SPecific Version
+# First, we need to install that version of Python
+#	pyenv install 3.6.2
+# configure  project to use the specific version:
+# echo'layout pyenv 3.6.2'> .envrc
 
 
 # BASH Shell Scripting
