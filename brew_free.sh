@@ -46,6 +46,8 @@ brew install direnv
 # configure  project to use the specific version:
 # echo'layout pyenv 3.6.2'> .envrc
 
+brew install docker
+brew install colima
 
 # BASH Shell Scripting
 brew install shellcheck
