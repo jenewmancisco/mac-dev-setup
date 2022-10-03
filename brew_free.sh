@@ -52,6 +52,11 @@ brew install colima
 # BASH Shell Scripting
 brew install shellcheck
 
+# Java
+brew install jenv
+# Install as many JDK as you want with Homebrew and openjdk
+#  brew install openjdk@XX
+
 # You can upgrade them with 
 # brew upgrade
 # or list them with 
