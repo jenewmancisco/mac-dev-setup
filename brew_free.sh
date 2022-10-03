@@ -56,6 +56,12 @@ brew install shellcheck
 brew install jenv
 # Install as many JDK as you want with Homebrew and openjdk
 #  brew install openjdk@XX
+brew install openjdk@11
+# ls -la /Library/Java/JavaVirtualMachines
+# jenv add /Library/Java/JavaVirtualMachines/<version from list above>/Contents/Home/
+# jenv versions # to see versions
+# To switch versions
+# jenv global <version from list above>
 
 # You can upgrade them with 
 # brew upgrade
