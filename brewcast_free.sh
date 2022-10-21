@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-brew tap caskroom/versions
+brew tap homebrew/caskroom-versions
 
 brew install --cask \
 clipy \
