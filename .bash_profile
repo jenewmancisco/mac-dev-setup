@@ -1,5 +1,5 @@
-# Add Homebrew `/usr/local/bin`, '/usr/local/sbin' and User `~/bin` to the `$PATH`
-PATH=/usr/local/bin:/usr/local/sbin:$PATH
+# Add Homebrew new `/opt/homebrew/bin`` & old`/usr/local/bin`, '/usr/local/sbin' and User`~/bin`to the`$PATH`
+PATH=/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$PATH
 PATH=$HOME/bin:$PATH
 export PATH
 
