@@ -762,6 +762,7 @@ curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
 ```
 curl --progress-bar -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
 sudo mv kubectl /usr/local/bin/kubectl
+sudo chmod +x /usr/local/bin/kubectl
 ```
 
 -- cloud-object-storage
