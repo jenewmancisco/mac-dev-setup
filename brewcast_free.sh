@@ -5,6 +5,7 @@ brew tap caskroom/versions
 brew install --cask \
 clipy \
 cheatsheet \
+cyberduck \
 docker \
 gimp \
 iterm2 \
