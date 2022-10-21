@@ -28,15 +28,22 @@ The document assumes you are new to Mac.
 ## Set all preferences
 
 ### BASH custumization
+
 Download the files .bash_profile, .bash_prompt, .aliases attached to this document into your home directory (.bash_profile is the one that gets loaded, it's set it up to call the others):
 
+```bash
     cd ~
     curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bash_profile
     curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bash_prompt
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.bashrc
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.exports
     curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.aliases
     curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.inputrc
+    curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/.path
+```
 
 ### Creating SSH Keys
+
 You will frequently use SSH to access remote UNIX systems. macOS includes the standard OpenSSH suite of tools.
 OpenSSH stores your SSH keys in a .ssh directory. To create this directory, run these commands in a terminal window:
 
@@ -50,10 +57,13 @@ To create an SSH key, run the ssh-keygen command in a terminal window. For examp
 Use 4096-bit RSA keys for all systems. The older DSA standard only supports 1024-bit keys, which are now too small to be considered secure.
 
 ### Creating a Private Applications Folder ???
+
 Once you have logged into your account, create a folder called Applications within your home folder. Whenever you are prompted to drag a new applications into the global Applications folder, put it in this private Applications folder instead. Some applications have to be installed to global folders, but in most cases you can keep the system directories clean by storing third-party products in your private Applications folder.
 
 ### Setting Up Projects
+
 This really depends on how you want to organize your files, but I like to put all my version-controlled projects in `~/Projects`. Other documents I may have, or things not yet under version control, I like to put in `~/Dropbox` (if you have Dropbox installed), or `~/Documents`.
+
 ```
 Projects/
   src/
@@ -66,22 +76,26 @@ Projects/
 ```
 
 ## System Preferences
+
 - Apple Icon > System Preferences > Dock > Automatically hide and show the Dock
 - Apple Icon > System Preferences > Trackpad > Tap to click
 - Apple Icon > System Preferences > Accessibility > Mouse & Trackpad > Trackpad Options… > Enable dragging
 - Scroll & Zoom: Scroll Direction: Natural OFF
 
 ### Securing the Safari Browser.
+
 - First, choose Safari > Preferences > General and deselect the option Open “safe” files after downloading.
 - Then, check the plug-in settings. Go to Safari > Preferences > Security > Plug-in Settings… and review the plug-ins and settings.
 
 ### Security & Privacy: BIG ONE HERE! Do NOT forget these!!
+
 - **General**: Set password if you haven’t already and set to require password 5 minutes after sleep or screen saver begins
 - **Advanced** select Require an administrator password to access system-wide preferences
 - **FileVault**: This is where you turn on encryption! Do this NOW and make sure you know your password and save the key securely!
 - **Firewall**: Turn it on.
 
 ### More preferences
+
 - **General**: Use Dark menu bar and Dock
 - **Dock: Size**: Very small, Magnification on: Max, all options at bottom checked
 - **Spotlight**: uncheck everything
@@ -90,6 +104,7 @@ Projects/
 - **Users & Groups**: click lock to unlock then, Turn OFF the “Guest User” account
 
 ### Finder! - So open up a fresh Finder window and hold Cmd + , to open the preferences.
+
 - **General**: Show everything and have New Finder windows open to Recents
 - **Tags**: Turn them all off here. This doesn’t mean you can’t use them; it just takes them off the Finder sidebar.
 - **Sidebar**: Turn everything on, except Recent Tags!
@@ -105,6 +120,7 @@ That’s all here, close this window.
     %admin ALL = (ALL) NOPASSWD: ALL
 	
 ### Desktop - up a little. Click a blank space on the desktop and then hit cmd + j to bring up the desktop options.
+
 ```
   Icon Size: 36 x 36
   Grid Spacing: Max
@@ -172,19 +188,24 @@ To see what you have installed (with their version numbers):
 
 ## Install Free GUI Apps
 - [brewcast_free.sh](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_free.sh)
-```
+
+```bash
 cd ~
 curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_free.sh
 ```
+
 ## Install Mac Quick Look plugins that extend the default functionality of one of Mac’s best features.
 - [brewcast_macquickplugin.sh](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_macquickplugin.sh)
-```
+
+```bash
 cd ~
 curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brewcast_macquickplugin.sh
 ```
+
 ## Install CLI Apps
 - [brew_free.sh](https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brew_free.sh)
-```
+
+```bash
 cd ~
 curl -O https://raw.githubusercontent.com/jenewmancisco/mac-dev-setup/master/brew_free.sh
 ```
