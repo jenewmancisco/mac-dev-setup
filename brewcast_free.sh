@@ -6,7 +6,6 @@ brew install --cask \
 clipy \
 cheatsheet \
 cyberduck \
-docker \
 gimp \
 iterm2 \
 mysqlworkbench \
