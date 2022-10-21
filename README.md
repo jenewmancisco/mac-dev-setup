@@ -421,8 +421,10 @@ Use hotkey cmd + shift + p to open up the Command Palette
 - Open Command Palette again (cmd + shift + p)
 - Type Sync and select “Sync: Download Settings”
 It will open a message at the top asking for a gist ID, enter the following and hit enter:
-37ed407d708c30c0433541ef2a79e10f
-If you want to look at the gist before you do this, I understand, here is the main link to it: https://gist.github.com/TreTuna/27cdd043d50902de930b5b50c993d681
+735d32bb030e8ed7168adca6e17260f8
+If you want to look at the gist before you do this, I understand, here is the main link to it: 
+https://gist.github.com/jenewmancisco/735d32bb030e8ed7168adca6e17260f8
+
 This will overwrite your settings and install all the plugins that I use!
 
 You can check them out by opening your settings (cmd + ,) and navigate to the extensions sidebar to see the extensions that were installed and add/remove what you want. This will get you up and going with a pretty nice setup in VSC though!
