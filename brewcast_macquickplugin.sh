@@ -2,7 +2,7 @@
 
 # Plugins for Quick Look
 
-brew cask install \
+brew install --cast \
 qlcolorcode \
 qlstephen \
 qlmarkdown \
