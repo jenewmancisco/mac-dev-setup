@@ -8,14 +8,12 @@ cheatsheet \
 cyberduck \
 gimp \
 iterm2 \
-mysqlworkbench \
 postman \
-slack \
 virtualbox \
-visual-studio-code \
 vlc \
 zoomus
 
+brew install --cask visual-studio-code
 brew install --cask google-chrome
 brew install --cask sketch
 brew install --cask bbedit
