@@ -765,6 +765,12 @@ sudo mv kubectl /usr/local/bin/kubectl
 sudo chmod +x /usr/local/bin/kubectl
 ```
 
+-- Openshift
+
+```
+brew install openshift-cli
+```
+
 -- cloud-object-storage
 
 ```
