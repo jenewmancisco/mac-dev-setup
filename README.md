@@ -748,3 +748,11 @@ set show-all-if-ambiguous On: This line sets the completions to be listed immedi
 set show-all-if-unmodified On: This line sets the completions to be listed immediately instead of ringing the bell, when the completing word has more than one possible completion but no partial completion can be made.
 
 set visible-stats On: This lines sets completions to be appended by characters that indicate their file types reported by the stat system call.
+
+## Getting started with the IBM Cloud CLI
+
+- https://cloud.ibm.com/docs/cli?topic=cli-getting-started
+
+```bash
+curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
+```
