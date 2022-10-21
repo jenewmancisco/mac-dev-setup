@@ -147,7 +147,7 @@ Package managers make it so much easier to install and update applications (for 
 
 Finally, we can install **Hombrew!** In the terminal paste the following line, hit Enter, and follow the steps on the screen:
 
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   
 One thing we need to do is tell the system to use programs installed by Hombrew (in /usr/local/bin) rather than the OS default if it exists. We do this by adding /usr/local/bin to your $PATH environment variable:
 
