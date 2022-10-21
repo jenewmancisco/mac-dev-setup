@@ -756,3 +756,23 @@ set visible-stats On: This lines sets completions to be appended by characters t
 ```bash
 curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
 ```
+
+### kubectl
+
+```
+curl --progress-bar -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
+```
+
+-- cloud-object-storage
+
+```
+ibmcloud plugin install cloud-object-storage
+ibmcloud plugin install container-registry
+ibmcloud plugin install container-service
+```
+
+-- help
+
+```
+curl -sL https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
+```
