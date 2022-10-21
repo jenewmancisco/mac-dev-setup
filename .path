@@ -2,4 +2,6 @@ PATH=/usr/local/opt/python@2/libexec/bin:$PATH
 PATH=$PATH:/Users/jenewman/bin
 PATH="~/.pyenv/bin:$PATH"
 PATH="$HOME/.jenv/shims:$PATH"
+# Add Visual Studio Code (code)
+PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH
