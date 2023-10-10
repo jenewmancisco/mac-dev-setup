@@ -7,6 +7,10 @@ brew install vim --with-override-system-vi
 brew install git-lfs
 brew install jq
 
+#install some GNU/Linux tools
+#will install many basics tools and prefix them with g, so date becomes gdate and is located in your /usr/local/ folder.
+brew install coreutils
+
 #Node.js - JavaScript-based environment used to create web-servers and networked applications.
 # NPM is a “package manager” that makes installing Node “packages” fast and easy. 
 #   A package, also called a module, is just a code library that extends Node by adding useful features.
